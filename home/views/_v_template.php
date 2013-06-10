@@ -15,14 +15,23 @@
 	<!-- Controller Specific JS/CSS -->
 	<?=@$client_files; ?>
 	
+	<script type='text/javascript'>
+	$(window).load(function() {
+		$(".navbar ul li").find("a[href='"+window.location.pathname+"']").each(function() {
+			$(this).parent().addClass('active');
+			console.log($(this).parent());
+			});
+		});
+	</script>
+	
 </head>
 
 <body>	
 	
 	<?=$header;?>
-	<div class="container">
-		<?=$content;?> 
-	</div>
+	
+	<?=$content;?> 
+	
 	<?=$footer;?>
 
 </body>

@@ -6,11 +6,11 @@
 		</hgroup>
 		
 			<!-- Navigation -->
-		<div class="navbar navbar-inverse opaque">
+		<div class="navbar-inverse opaque">
 			<div class="navbar-inner">
 				<div class="container">
 					<ul class="nav">
-						<li class="active"><a href="/">home</a></li>
+						<li><a href="/">home</a></li>
 						<li><a href="/portfolio/">portfolio</a></li>
 						<li><a href="http://raptorja.ws">blog</a></li>
 						<li><a href="/about/">about</a></li>
